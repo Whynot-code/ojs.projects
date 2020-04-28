@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(155, 128, 7);
+}
+div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.582);
+    padding: 60px;
+    color: white;
+    width: 20%;
+}
+div *{
+    margin-bottom: 15px;
+}
+label{
+    font-size: 50px;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+input{
+    padding: 5px;
+    width: 70%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+input:focus, select:focus{
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.178);
+}
+select{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+}
+
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
