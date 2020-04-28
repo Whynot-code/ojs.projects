@@ -26,7 +26,7 @@ function caesar13(input){
 
         else result.push(index)
     }
-    console.log(result.join(''))
+
     return result.join('')
     
     }  
