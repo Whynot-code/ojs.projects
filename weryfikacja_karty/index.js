@@ -1,5 +1,16 @@
 import checkCardNumber from './checkCardNumber';
 
+const btn = document.querySelector("button");
+const div = document.querySelector("#wynik")
+
+btn.addEventListener("click", () => {
+    const input = document.querySelector("input")
+    if (input.value) {
+        div.textContent = `${checkCardNumber(input.value)}`
+        input.value = ""
+
+    }
+
 console.log(checkCardNumber(378282246310005))
 console.log(checkCardNumber(371449635398431))
 console.log(checkCardNumber(378734493671000))
